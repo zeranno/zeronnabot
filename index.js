@@ -47,4 +47,4 @@ bot.on("message", async message => {
 //episode 2 describes the botinfo and serverinfo commands that describe the bot and server respectively
 })
 
-bot.login(process.env.TOKEN)
+bot.login(process.env.BOT_TOKEN)
